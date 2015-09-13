@@ -6,12 +6,12 @@ var jspath = require('jspath');
 var FeedCreator = require('feed'); // to create feed objects and
 var feedmerger = require('./feedmerger.js').feedmerger;
 var pagewriter = require('./pagewriter.js').pagewriter;
-var editorpicks = require('./editors.js');
-editorpicks();
+//var editorpicks = require('./editors.js');
+//editorpicks();
 
 var FeedsJson = {};
 // var Feeds = {};
-var categories = ['Research', 'Journalism', 'Web', 'Recreational', 'Teaching', 'Education'];
+var categories = ['Blogs', 'Comments'];
 
 var filterFeedJson = function (category) {
   'use strict';

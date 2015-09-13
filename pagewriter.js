@@ -37,10 +37,10 @@ exports.pagewriter = function(cat, jsonFeed) {
   };
 
   theOutput += addEntries(theFeed);
-  fs.writeFile('./mathblogging.org/' + category + '.md', theOutput);
+  fs.writeFile('./boolesrings.org/' + category + '.md', theOutput);
   //   build out markdown now!
 
-  fs.writeFile('./mathblogging.org/' + cat + '.xml', theFeed.render('atom-1.0'));
+  fs.writeFile('./boolesrings.org/' + cat + '.xml', theFeed.render('atom-1.0'));
 
   return true;
   //end module

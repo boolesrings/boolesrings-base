@@ -1,109 +1,256 @@
 {
-  "blogs":[
-    {
-      "title": "Sam Coskey",
-      "feedURL": "http://boolesrings.org/scoskey/feed/",
-      "type": "rss",
-      "homeURL": "http://boolesrings.org/scoskey/",
-      "category": [
-        {
-          "title": "Research"
-        },
-        {
-          "title": "Journalism"
-        }
-      ],
-      "ttl": 0
-    },
-    {
-      "title": "Peter Krautzberger",
-      "feedURL": "http://www.peterkrautzberger.org/atom.xml",
-      "type": "atom",
-      "homeURL": "http://www.peterkrautzberger.org",
-      "category": [
-        {
-          "title": "Research"
-        },
-        {
-          "title": "Web"
-        }
-        ],
-        "ttl": 0
-    },
-    {
-      "title": "Finding Ways",
-      "feedURL": "http://fawnnguyen.com/feed/",
-      "type": "atom",
-      "homeURL": "http://fawnnguyen.com/",
-      "category": [
-        {
-          "title": "Teaching"
-        },
-        {
-          "title": "Education"
-        }
-        ],
-        "ttl": 0
-    },
-    {
-      "title": "Dana C. Ernst",
-      "feedURL": "http://danaernst.com/feed/",
-      "type": "atom",
-      "homeURL": "http://danaernst.com/",
-      "category": [
-        {
-          "title": "Research"
-        },
-        {
-          "title": "Education"
-        }
-        ],
-        "ttl": 0
-    },
-    {
-      "title": "Mr Honner",
-      "feedURL": "http://mrhonner.com/feed/",
-      "type": "atom",
-      "homeURL": "http://mrhonner.com/",
-      "category": [
-        {
-          "title": "Teaching"
-        },
-        {
-          "title": "Education"
-        }
-        ],
-        "ttl": 0
-    },
-    {
-      "title": "Math-Frolic!",
-      "feedURL": "https://math-frolic.blogspot.com/feeds/posts/default",
-      "type": "atom",
-      "homeURL": "https://math-frolic.blogspot.com/",
-      "category": [
-        {
-          "title": "Recreational"
-        },
-        {
-          "title": "Journalism"
-        }
-        ],
-        "ttl": 0
-    },
-    {
-      "title": "The Aperiodical",
-      "feedURL": "http://aperiodical.com/feed/",
-      "type": "atom",
-      "homeURL": "http://aperiodical.com/",
-      "category": [
-        {
-          "title": "Journalism"
-        },
-        {
-          "title": "Recreational"
-        }
-        ],
-        "ttl": 0
-    }
-  ]
+  "blogs": [{
+    "title": "Sam Coskey",
+    "feedURL": "http://boolesrings.org/scoskey/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/scoskey/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Sam Coskey Comments",
+    "feedURL": "http://boolesrings.org/scoskey/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/scoskey/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Peter Krautzberger",
+    "feedURL": "http://www.peterkrautzberger.org/atom.xml",
+    "type": "atom",
+    "homeURL": "http://www.peterkrautzberger.org",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Norman Lewis Perlmutter",
+    "feedURL": "http://boolesrings.org/perlmutter/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/perlmutter/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Norman Lewis Perlmutter Comments",
+    "feedURL": "http://boolesrings.org/perlmutter/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/perlmutter/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Victoria Gitman",
+    "feedURL": "http://boolesrings.org/victoriagitman/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/victoriagitman/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Victoria Gitman Comments",
+    "feedURL": "http://boolesrings.org/victoriagitman/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/victoriagitman/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "François Dorais",
+    "feedURL": "http://logic.dorais.org/feed/",
+    "type": "rss",
+    "homeURL": "http://logic.dorais.org/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "François Dorais Comments",
+    "feedURL": "http://logic.dorais.org/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://logic.dorais.org/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Dana Ernst",
+    "feedURL": "http://dcernst.github.io/feed.xml",
+    "type": "rss",
+    "homeURL": "http://dcernst.github.io/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Asaf Karagila",
+    "feedURL": "http://boolesrings.org/asafk/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/asafk/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Asaf Karagila Comments",
+    "feedURL": "http://boolesrings.org/asafk/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/asafk/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Carl Mummert",
+    "feedURL": "http://m6c.org/w/feed/",
+    "type": "rss",
+    "homeURL": "http://m6c.org/w/blog",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Carl Mummert Comments",
+    "feedURL": "http://m6c.org/w/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://m6c.org/w/blog",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Assaf Rinot",
+    "feedURL": "http://blog.assafrinot.com/?feed=rss2",
+    "type": "rss",
+    "homeURL": "http://blog.assafrinot.com/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Assaf Rinot Comments",
+    "feedURL": "http://blog.assafrinot.com/?feed=comments-rss2",
+    "type": "rss",
+    "homeURL": "http://blog.assafrinot.com/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Joel David Hamkins",
+    "feedURL": "http://jdh.hamkins.org/feed/",
+    "type": "rss",
+    "homeURL": "http://jdh.hamkins.org/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Joel David Hamkins Comments",
+    "feedURL": "http://jdh.hamkins.org/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://jdh.hamkins.org/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Mike Pawliuk",
+    "feedURL": "http://boolesrings.org/mpawliuk/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/mpawliuk/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Mike Pawliuk Comments",
+    "feedURL": "http://boolesrings.org/mpawliuk/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/mpawliuk/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Ioanna Dimitriou Henríquez",
+    "feedURL": "http://boolesrings.org/ioanna/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/ioanna/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Ioanna Dimitriou Henríquez Comments",
+    "feedURL": "http://boolesrings.org/ioanna/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/ioanna/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Dave Sixsmith",
+    "feedURL": "http://boolesrings.org/davesixsmith/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/davesixsmith/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Dave Sixsmith Comments",
+    "feedURL": "http://boolesrings.org/davesixsmith/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/davesixsmith/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Mimi Tsuruga",
+    "feedURL": "http://boolesrings.org/matsguru/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/matsguru/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Mimi Tsuruga Comments",
+    "feedURL": "http://boolesrings.org/matsguru/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/matsguru/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Nick Gill",
+    "feedURL": "http://boolesrings.org/nickgill/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/nickgill/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Nick Gill Comments",
+    "feedURL": "http://boolesrings.org/nickgill/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/nickgill/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }]
 }
+
