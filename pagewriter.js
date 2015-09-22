@@ -32,7 +32,7 @@ exports.pagewriter = function(cat, jsonFeed) {
       newPart += '* ' + '**' + escapeMD(item.author[0].name) + '**' + ' [' + escapeMD(item.title) + '](' + item.link + ')\n';
     }
     newPart += '\n';
-    newPart += '[Grab the feed for ' + cat + ' blogs!](' + cat + '.xml)\n';
+    newPart += '[Grab the feed for all ' + cat + '!](' + cat + '.xml)\n';
     return newPart;
   };
 
