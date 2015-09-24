@@ -57,15 +57,15 @@ for (var j = 0; j < catFeedsJson.length; j++){
   catFeedURLs = catFeedURLs.map(titleToFilenameHelper);
   console.log(catFeedURLs);
   var catFeed = new FeedCreator({
-    title: 'Mathblogging.org -- ' + category,
-    description: 'Your one stop shop for mathematical blogs',
-    link: 'http://mathblogging.org/',
-    image: 'http://mathblogging.org/logo.png',
+    title: 'Booles\' Rings -- ' + category,
+    description: 'Researchers. Connecting.',
+    link: 'http://boolesrings.org/',
+    image: 'http://boolesrings.org/favicon.gif',
     copyright: 'No copyright asserted over individual posts; see original posts for copyright and/or licensing.',
     author: {
-      name: 'Mathblogging.org',
-      email: 'info@mathblogging.org',
-      link: 'https://mathblogging.org'
+      name: 'Booles\' Rings',
+      email: 'info@boolesrings.org',
+      link: 'http://boolesrings.org'
     }
   });
   feedmerger(catFeedURLs, catFeed, pagewriter.bind(null, category));
