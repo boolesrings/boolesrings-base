@@ -234,6 +234,24 @@
     }],
     "ttl": 0
   }, {
+    "title": "Joseph Van Name",
+    "feedURL": "http://boolesrings.org/jvanname/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/jvanname/",
+    "category": [{
+      "title": "Blogs"
+    }],
+    "ttl": 0
+  }, {
+    "title": "Joseph Van Name Comments",
+    "feedURL": "http://boolesrings.org/jvanname/comments/feed/",
+    "type": "rss",
+    "homeURL": "http://boolesrings.org/jvanname/",
+    "category": [{
+      "title": "Comments"
+    }],
+    "ttl": 0
+  }, {
     "title": "Nick Gill",
     "feedURL": "http://boolesrings.org/nickgill/feed/",
     "type": "rss",
