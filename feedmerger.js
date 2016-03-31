@@ -57,7 +57,7 @@ exports.feedmerger = function(feedsJson, feedObject, mergedCallback) {
   };
 
   //  console.log(feedsJson);
-  async.each(feedsJson, getFeed, function(err) {
+  async.eachLimit(feedsJson, 5, getFeed, function(err) {
     if (err) {
       throw err;
     }
