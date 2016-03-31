@@ -1,6 +1,7 @@
 #! /usr/bin/env node
 
 var fs = require('fs');
+var async = require('async');
 var request = require('request');
 // var async = require('async'); // asyncjs for async stuff
 
@@ -30,9 +31,23 @@ exports.feedscacher = function(jsonFeed) {
 
   var blogs = jsonFeed.blogs;
 
-  for (var i = 0; i < blogs.length; i++) {
-    updateFeed(blogs[i]);
+  var q=async.queue(updateFeed, 5);
+  q.drain = function() {
+    console.log('all items have been processed');
   }
+  q.push(blogs, function(error, warning) {
+    if ( error ) {
+      console.log(error);
+    }
+    if (warning) {
+      console.log(warning);
+    }
+  });
+
+
+  // for (var i = 0; i < blogs.length; i++) {
+  //   updateFeed(blogs[i]);
+  // }
   // do treatFeed using async https://www.npmjs.com/package/async#foreachof-obj-iterator-callback
 
 
