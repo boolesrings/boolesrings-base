@@ -8,7 +8,7 @@ var request = require('request');
 exports.feedscacher = function(jsonFeed) {
   'use strict';
 
-  var updateFeed = function(blogData) {
+  var updateFeed = function(blogData, callback) {
     var currentTime = new Date(); // TODO cf. wiki
     if (blogData.ttl < currentTime) {
       request
@@ -21,6 +21,7 @@ exports.feedscacher = function(jsonFeed) {
             // console.log(response.headers);
             response.pipe(fs.createWriteStream('./feeds/' + blogData.title + '.xml'));
           }
+          callback();
         })
         .on('error', function(error) {
           console.log('Requesting ' + blogData.title + ' - ' + error);
@@ -42,6 +43,7 @@ exports.feedscacher = function(jsonFeed) {
     if (warning) {
       console.log(warning);
     }
+    console.log('items pushed');
   });
 
 
