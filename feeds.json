@@ -1,20 +1,11 @@
 {
   "blogs": [{
     "title": "Sam Coskey",
-    "feedURL": "http://boolesrings.org/scoskey/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/scoskey/",
+    "feedURL": "http://scoskey.org/feed.xml",
+    "type": "atom",
+    "homeURL": "http://scoskey.org",
     "category": [{
       "title": "Blogs"
-    }],
-    "ttl": 0
-  }, {
-    "title": "Sam Coskey Comments",
-    "feedURL": "http://boolesrings.org/scoskey/comments/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/scoskey/",
-    "category": [{
-      "title": "Comments"
     }],
     "ttl": 0
   }, {
@@ -28,62 +19,44 @@
     "ttl": 0
   }, {
     "title": "Norman Lewis Perlmutter",
-    "feedURL": "http://boolesrings.org/perlmutter/feed/",
+    "feedURL": "http://normanspace.org/feed/",
     "type": "rss",
-    "homeURL": "http://boolesrings.org/perlmutter/",
+    "homeURL": "http://normanspace.org/",
     "category": [{
       "title": "Blogs"
     }],
     "ttl": 0
   }, {
     "title": "Norman Lewis Perlmutter Comments",
-    "feedURL": "http://boolesrings.org/perlmutter/comments/feed/",
+    "feedURL": "http://normanspace.org/comments/feed/",
     "type": "rss",
-    "homeURL": "http://boolesrings.org/perlmutter/",
+    "homeURL": "http://normanspace.org/",
     "category": [{
       "title": "Comments"
     }],
     "ttl": 0
   }, {
     "title": "Victoria Gitman",
-    "feedURL": "http://boolesrings.org/victoriagitman/feed/",
+    "feedURL": "https://victoriagitman.github.io/feed.xml",
     "type": "rss",
-    "homeURL": "http://boolesrings.org/victoriagitman/",
+    "homeURL": "https://victoriagitman.github.io/",
     "category": [{
       "title": "Blogs"
     }],
     "ttl": 0
   }, {
-    "title": "Victoria Gitman Comments",
-    "feedURL": "http://boolesrings.org/victoriagitman/comments/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/victoriagitman/",
-    "category": [{
-      "title": "Comments"
-    }],
-    "ttl": 0
-  }, {
     "title": "François Dorais",
-    "feedURL": "http://logic.dorais.org/feed/",
+    "feedURL": "http://www.dorais.org/feed.xml",
     "type": "rss",
-    "homeURL": "http://logic.dorais.org/",
+    "homeURL": "http://www.dorais.org/",
     "category": [{
-      "title": "Comments"
-    }],
-    "ttl": 0
-  }, {
-    "title": "François Dorais Comments",
-    "feedURL": "http://logic.dorais.org/comments/feed/",
-    "type": "rss",
-    "homeURL": "http://logic.dorais.org/",
-    "category": [{
-      "title": "Comments"
+      "title": "Blogs"
     }],
     "ttl": 0
   }, {
     "title": "Dana Ernst",
     "feedURL": "http://dcernst.github.io/feed.xml",
-    "type": "rss",
+    "type": "atom",
     "homeURL": "http://dcernst.github.io/",
     "category": [{
       "title": "Blogs"
@@ -91,20 +64,11 @@
     "ttl": 0
   }, {
     "title": "Asaf Karagila",
-    "feedURL": "http://boolesrings.org/asafk/feed/",
+    "feedURL": "http://karagila.org/feed.xml",
     "type": "rss",
-    "homeURL": "http://boolesrings.org/asafk/",
+    "homeURL": "http://karagila.org/",
     "category": [{
       "title": "Blogs"
-    }],
-    "ttl": 0
-  }, {
-    "title": "Asaf Karagila Comments",
-    "feedURL": "http://boolesrings.org/asafk/comments/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/asafk/",
-    "category": [{
-      "title": "Comments"
     }],
     "ttl": 0
   }, {
@@ -163,112 +127,48 @@
     "ttl": 0
   }, {
     "title": "Mike Pawliuk",
-    "feedURL": "http://boolesrings.org/mpawliuk/feed/",
+    "feedURL": "http://mikepawliuk.ca/feed/",
     "type": "rss",
-    "homeURL": "http://boolesrings.org/mpawliuk/",
+    "homeURL": "http://mikepawliuk.ca",
     "category": [{
       "title": "Blogs"
-    }],
-    "ttl": 0
-  }, {
-    "title": "Mike Pawliuk Comments",
-    "feedURL": "http://boolesrings.org/mpawliuk/comments/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/mpawliuk/",
-    "category": [{
-      "title": "Comments"
-    }],
-    "ttl": 0
-  }, {
-    "title": "Ioanna Dimitriou Henríquez",
-    "feedURL": "http://boolesrings.org/ioanna/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/ioanna/",
-    "category": [{
-      "title": "Blogs"
-    }],
-    "ttl": 0
-  }, {
-    "title": "Ioanna Dimitriou Henríquez Comments",
-    "feedURL": "http://boolesrings.org/ioanna/comments/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/ioanna/",
-    "category": [{
-      "title": "Comments"
     }],
     "ttl": 0
   }, {
     "title": "Dave Sixsmith",
-    "feedURL": "http://boolesrings.org/davesixsmith/feed/",
+    "feedURL": "https://sixsmith2017.wordpress.com/feed/",
     "type": "rss",
-    "homeURL": "http://boolesrings.org/davesixsmith/",
+    "homeURL": "https://sixsmith2017.wordpress.com",
     "category": [{
       "title": "Blogs"
     }],
     "ttl": 0
   }, {
     "title": "Dave Sixsmith Comments",
-    "feedURL": "http://boolesrings.org/davesixsmith/comments/feed/",
+    "feedURL": "https://sixsmith2017.wordpress.com/comments/feed/",
     "type": "rss",
-    "homeURL": "http://boolesrings.org/davesixsmith/",
-    "category": [{
-      "title": "Comments"
-    }],
-    "ttl": 0
-  }, {
-    "title": "Mimi Tsuruga",
-    "feedURL": "http://boolesrings.org/matsguru/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/matsguru/",
-    "category": [{
-      "title": "Blogs"
-    }],
-    "ttl": 0
-  }, {
-    "title": "Mimi Tsuruga Comments",
-    "feedURL": "http://boolesrings.org/matsguru/comments/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/matsguru/",
-    "category": [{
-      "title": "Comments"
-    }],
-    "ttl": 0
-  }, {
-    "title": "Joseph Van Name",
-    "feedURL": "http://boolesrings.org/jvanname/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/jvanname/",
-    "category": [{
-      "title": "Blogs"
-    }],
-    "ttl": 0
-  }, {
-    "title": "Joseph Van Name Comments",
-    "feedURL": "http://boolesrings.org/jvanname/comments/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/jvanname/",
+    "homeURL": "https://sixsmith2017.wordpress.com",
     "category": [{
       "title": "Comments"
     }],
     "ttl": 0
   }, {
     "title": "Nick Gill",
-    "feedURL": "http://boolesrings.org/nickgill/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/nickgill/",
+    "feedURL": "https://nickpgill.github.io/feed.xml",
+    "type": "atom",
+    "homeURL": "https://nickpgill.github.io/",
     "category": [{
       "title": "Blogs"
     }],
     "ttl": 0
   }, {
-    "title": "Nick Gill Comments",
-    "feedURL": "http://boolesrings.org/nickgill/comments/feed/",
-    "type": "rss",
-    "homeURL": "http://boolesrings.org/nickgill/",
+    "title": "Sandra Uhlenbrock",
+    "feedURL": "https://muellersandra.github.io/feed.xml",
+    "type": "atom",
+    "homeURL": "https://muellersandra.github.io/",
     "category": [{
-      "title": "Comments"
+      "title": "Blogs"
     }],
     "ttl": 0
   }]
 }
-
